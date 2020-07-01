@@ -1,0 +1,55 @@
+
+
+/*--------------------------------------------Navigation*/
+
+
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-family: 'bebasneueregular', sans-serif;
+
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-family: 'bebasneueregular', sans-serif;
+
+}
+
+/*--------------------------------------------Hero*/
+
+.hero-image{
+    background-image: url(../images/hero1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 260px;
+}
+
+.hero-text{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'bebasneueregular', sans-serif;
+    color: silver;
+    margin: 25px auto;
+    
+
+}
+
+/*--------------------------------------------About*/
+
+p{
+    font-family: 'Oswald', sans-serif;
+    text-transform: lowercase;
+
+}
+
+i{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'bebasneueregular', sans-serif;
+}
+
+/*--------------------------------------------Cards*/
+.card{
+    margin: auto;
+}
