@@ -1,42 +1,52 @@
 
 
+body{
+background-color: #dcd4d4;
+}
 /*--------------------------------------------Navigation*/
 
-
+.navbar{
+    background-color: #dcd4d4;
+}
 
 .navbar-brand{
     text-transform: uppercase;
-    font-family: 'bebasneueregular', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 ul li a{
     text-transform: uppercase;
-    font-family: 'bebasneueregular', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 /*--------------------------------------------Hero*/
 
 .hero-image{
-    background-image: url(../images/hero1.jpg);
+    background-image: url(../images/table1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 260px;
+    height: 400px;
 }
 
 .hero-text{
     text-transform: uppercase;
     text-align: center;
     font-family: 'bebasneueregular', sans-serif;
-    color: silver;
-    margin: 25px auto;
+    color: gold;
+    margin: 45px auto;
     
 
 }
 
 /*--------------------------------------------About*/
 
+
+.about{
+    margin: 50px auto;
+
+}
 p{
     font-family: 'Oswald', sans-serif;
     text-transform: lowercase;
@@ -51,5 +61,23 @@ i{
 
 /*--------------------------------------------Cards*/
 .card{
-    margin: auto;
+    margin-right: 75px;
+    margin-top: 20px;
+    display: inline-block;
 }
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media only screen and (max-width: 1210px) {
+.card{
+    width: 12rem;
+}
+
+
+}
+
